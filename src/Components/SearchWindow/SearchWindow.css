@@ -1,0 +1,38 @@
+.quickSearchBox{
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content:center;
+    display:inline-flex;
+    max-width:100%;
+    width:60vw;
+    height: 50vh;
+    background-color: rgba(170, 170, 170,0.7);
+    top:180px;
+    left:20%;
+    z-index:0;
+    border-radius:50px;
+    color:rgb(0, 0, 0);
+    
+}
+
+.quickSearchBox input[type=number]::-webkit-inner-spin-button, 
+.quickSearchBox input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+.leftSide{
+    float:left;
+    width:50%;
+    margin-right:-50px;
+}
+.rightSide{
+    float: right;
+    width:50%;
+}
+.submitButton{
+    position:absolute;
+    bottom:0;
+    
+}
